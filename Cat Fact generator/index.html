@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body, html {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: url("https://brownsburganimalclinic.com/wp-content/uploads/2023/01/blueeyedcatFI.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+        .main{
+            /* height: 200px; */
+            width: 350px;
+            border: 2px solid white;
+            text-align: center;
+            padding: 10px 25px;
+            background-color: dodgerblue;
+            border-radius: 5px;
+            
+        }
+        .text{
+            font-size: 20px;
+            color: white;
+        }
+        button{
+            border: none;
+            background-color: #2ECC71;
+            padding: 20px 10px;
+            font-size: 30px;
+            color: white;
+            border-radius: 10px;
+        }
+        button:active {
+            transform: scale(0.97);
+            background-color: #83ebe9f4;
+            
+            transition: all 0.2s linear;
+        }
+
+
+        .head{
+            /* text-decoration: underline; */
+            font-weight: 700;
+            color: rgb(139, 253, 255);
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1 class="head">Meow Moments 🐾</h1>
+        <p class="text">Welcome to cat facts.</p>
+    </div>
+    <button>Generate</button>
+    <script src="script.js"></script>
+</body>
+</html>
