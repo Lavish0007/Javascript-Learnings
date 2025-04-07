@@ -20,6 +20,8 @@ npm install prompt-sync
 
 const prompt = require('prompt-sync')();
 
+![Image](https://github.com/user-attachments/assets/e39d7bc5-5c75-487d-adf9-42153fddca81)
+
 let guess = prompt("Guess a number: ");
 console.log("You guessed:", guess);
 
