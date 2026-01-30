@@ -1,3 +1,24 @@
+// reusable discount calculator
+
+function discount(amt){
+    return function(price){
+        return price-price*(amt/100);
+    }
+}
+let ten = discount(10);
+let twenty = discount(20);
+
+console.log(ten(100))
+console.log(twenty(100))
+
+
+
+
+
+
+
+
+
 // console.log("Hello, World!");
 // console.log("This is a simple JavaScript file.");
 // // alert("Welcome to JavaScript programming!");
@@ -54,8 +75,27 @@
 // }
 // sum(10,10,10,10)
 // console.log(s);
-function check( age ){
-    if(age<18) return "Too Young";
-    return "Allowed";
-}
-console.log(check(50))
+// function check( age ){
+//     if(age < 18) return "Too Young";
+//     return "Allowed";
+// }
+// console.log(check(19))
+//  function dbl(val){
+//     console.log(val*2) ;
+//  }
+//  ar=[10,20,30];
+//  dbl(function sm(ar){
+//     let s=0;
+//     ar.forEach(function (val){
+//         s+=val;
+//     })
+//     return s;
+//  })
+
+// BMI CALCULATOR
+
+// function bmi(w,h){
+//     let res=w/(h*h)
+//     return res.toFixed(2);
+// }
+// console.log(bmi(73,1.81))
