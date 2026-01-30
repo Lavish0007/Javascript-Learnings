@@ -31,3 +31,31 @@
 // }
 // let a=100;
 // console.log((a*(a+1))/2)
+// let n = prompt("Tell the number.");
+// for(let i=1;i<=100;i++){
+//     if(i%3===0 && i%5===0){
+//         console.log(i);
+//     }
+    
+// }
+// function nacho(v){
+//     console.log(`${v} naach rha hai`)
+// }
+// nacho("ghoda");
+// nacho("ghoda");
+
+// let arr=[1,2,3,4,5];
+// let s=0;
+// function sum(...score){
+//     score.forEach(function(val){
+//         s+=val;
+//     })
+
+// }
+// sum(10,10,10,10)
+// console.log(s);
+function check( age ){
+    if(age<18) return "Too Young";
+    return "Allowed";
+}
+console.log(check(50))
