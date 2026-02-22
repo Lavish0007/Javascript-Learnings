@@ -8,5 +8,10 @@ obj={
         }
     }
 }
+let obj2=JSON.parse(JSON.stringify(obj));
+obj2.Address.city="Delhi";
+// for(let keyy in obj){
+//     console.log(keyy,"->",obj[keyy])
+// }
 
-console.log(obj.Address)
+   
